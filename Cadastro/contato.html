@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+       
+    <form class="form">
+
+        <div class="card">
+            <div class="card-top">
+                <img class="imglogin" src="imagem/img.png" alt="">
+                <p>Crie seu cadastro.</p>
+            </div>
+
+            <div class="card-form">
+                <label>Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required><br>
+            </div>
+
+            <div class="card-form">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required><br>
+            </div>
+            
+            <div class="card-form">
+                <label>Telefone</label>
+                <input type="tel" placeholder="(XX) XXXXX-XXXX" required><br>
+            </div>
+
+            <div class="card-form">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required>
+                <input type="checkbox" onclick="mostrarOcultarSenha()">Mostrar senha
+            </div>
+
+            <div class="card-form btn">
+                <button type="submit">ENVIAR</button>
+            </div>
+   
+        </div>  
+
+            <script type="text/javascript" src="scripts.js"></script>
+
+       
+       
+    
+    </form>
+
+</body>
+
+</html>
