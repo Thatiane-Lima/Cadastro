@@ -1,0 +1,60 @@
+body {
+    background-color: #F0F0F0;
+    font-family: sans-serif;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px ;
+
+}
+
+.card {
+    box-shadow: 1PX 1PX 5PX #CCC;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.card-top{
+    text-align: center ;
+}
+
+.card-form{
+margin-bottom: 10px;
+}
+
+.card-form > label{
+    width: 100px;
+    color: rgb(100, 98, 98);
+    display: block;
+}
+
+.card-form > input {
+border-radius: 5px;
+outline: 0;
+width: 100%;
+height: 25px;
+padding: 5px;
+}
+
+.card-form > button {
+    background-image: linear-gradient(to right, rgb(179, 67, 110), rgb(190, 2, 2));
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+}
+
+.btn button:hover {
+    background-image: linear-gradient(to right, rgb(125, 67, 179), rgb(4, 48, 129)); 
+}
+
+.imglogin{
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 1px 1px 5px #ccc;
+}
